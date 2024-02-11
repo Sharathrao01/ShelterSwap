@@ -25,7 +25,9 @@ const Header = () => {
               About
             </li>
           </Link>
-            <li className=' text-slate-700 hover:underline'> Sign in</li>
+          <Link to = '/SignUp'>
+            <li className=' text-slate-700 hover:underline'> Sign In</li>
+          </Link>
         </ul>
       </div>
      </header>
